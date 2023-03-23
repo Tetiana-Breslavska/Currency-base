@@ -28,10 +28,10 @@ describe('Component CurrencyForm', () => {
             const amountField = screen.getByTestId('amount');
             const fromField = screen.getByTestId('from');
             const toField = screen.getByTestId('to');
-                       
-            console.log (testObj.amount);
-            console.log (testObj.from);
-            console.log (testObj.to);
+        
+            // console.log (testObj.amount);
+            // console.log (testObj.from);
+            // console.log (testObj.to);
             
             // set test values to fields
             userEvent.type(amountField, testObj.amount);
